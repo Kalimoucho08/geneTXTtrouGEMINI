@@ -6,7 +6,7 @@ import google.generativeai as genai
 import os
 
 # Configurez votre clé API
-genai.configure(api_key="AIzaSyC_dC_cVfJN3KZY95GG4Z4LlEylzkkvEsc")
+genai.configure(api_key="")
 
 # Charger le modèle français de spaCy
 nlp = spacy.load("fr_core_news_sm")
